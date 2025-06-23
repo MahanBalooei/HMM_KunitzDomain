@@ -55,8 +55,6 @@ cd HMM_KunitzDomain
 git lfs install
 git lfs pull
 
-# Install Python requirements if needed
-pip install -r requirements.txt
 ```
 
 ---
