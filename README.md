@@ -82,7 +82,8 @@ hmmsearch -Z 1000 --max --tblout neg_1.out pdb_kunitz_struct.hmm neg_1.fasta
 
 ### 5. Evaluation
 ```bash
-for i in `seq 1 12`; do python3 scripts/performance.py results/evaluation/set_1.class 1e-$i; done
+python3 scripts/performance.py results/evaluation/pos_1.out 1e-5
+
 ```
 - Outputs: MCC, Q2 (Accuracy), TPR (Sensitivity), PPV (Precision), confusion matrix
 
