@@ -97,7 +97,7 @@ python3 scripts/performance.py results/evaluation/pos_1.out 1e-5
 - 🧬 Conserved Cysteines (Cys) modeled accurately across alignments
 - 🧩 Identified true Kunitz domains even when Pfam annotations were missing
 
-For full discussion and evaluation figures, see: [`docs/Mahan_Balooei_report.pdf`]([docs/report.pdf](https://github.com/MahanBalooei/HMM_KunitzDomain/blob/main/Docs/Mahan_Balooei_report.pdf))
+For full discussion and evaluation figures, see: [`docs/Mahan_Balooei_report.pdf`](https://github.com/MahanBalooei/HMM_KunitzDomain/blob/main/Docs/Mahan_Balooei_report.pdf)
 
 ---
 
