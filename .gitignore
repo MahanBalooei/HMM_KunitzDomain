@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Data & artifacts (DO NOT VERSION)
+Data/
+Result/
+*.zip
+*.fasta
+*.pt
+*.pth
+*.ckpt
+*.csv
+*.parquet
