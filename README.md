@@ -114,10 +114,10 @@ The structure-based model outperformed the sequence-based one, highlighting its 
 ### 📧 Contact
 For questions or feedback, please contact:
 Mahan Balooei
-Department of Pharmacy and Biotechnology
+- Department of Pharmacy and Biotechnology
 Alma Mater Studiorum – Università di Bologna
-Email: mahan.balooei@studio.unibo.it
-ORCID: 0009-0006-5358-0784
+- Email: mahan.balooei@studio.unibo.it
+- ORCID: 0009-0006-5358-0784
 
 
 
