@@ -78,4 +78,20 @@ A profile Hidden Markov Model was constructed from the multiple sequence alignme
 ```text
 hmmbuild Data/Processed/kunitz.hmm Data/Processed/pdb_kunitz_nr_clean.ali
 ```
+4. Domain Search
+The trained HMM was used to scan positive and negative datasets:
+```text
+hmmsearch --tblout results.tbl Data/Processed/kunitz.hmm input_sequences.fasta
+```
+5. Evaluation
+Model performance was assessed across different E-value thresholds using standard classification metrics such as:
+- accuracy,
+- sensitivity,
+- precision,
+- Matthews Correlation Coefficient (MCC).
 
+## Reproducibility Notes
+- Raw data are preserved without modification
+- All derived artifacts are stored in Data/Processed
+- Directory structure reflects the logical flow of the analysis
+- Large intermediate files are intentionally excluded from version control
