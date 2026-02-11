@@ -1,3 +1,5 @@
+🧬 Structure-Based HMM Profiling for Kunitz-Type Protease Inhibitor Domains
+
 # HMM_KunitzDomain  
 ### Profile Hidden Markov Model for Kunitz-Type Protein Domain Identification
 
