@@ -1,5 +1,5 @@
-## 🧬 Structure-Based HMM Profiling for Kunitz-Type Protease Inhibitor Domains
-📄 Table of Contents
+# 🧬 Structure-Based HMM Profiling for Kunitz-Type Protease Inhibitor Domains
+##📄 Table of Contents
 
 Overview
 Repository Structure
