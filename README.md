@@ -69,5 +69,13 @@ External alignment or structural analysis tools
 1. Dataset Preparation
 Protein sequences were collected from public databases and organized into raw datasets.
 Filtering and curation steps were applied to generate processed datasets suitable for modeling.
+
 2. Multiple Sequence Alignment
 Curated Kunitz-domain sequences were aligned to highlight conserved positions relevant for domain identification.
+
+3. Profile HMM Construction
+A profile Hidden Markov Model was constructed from the multiple sequence alignment using HMMER:
+```text
+hmmbuild Data/Processed/kunitz.hmm Data/Processed/pdb_kunitz_nr_clean.ali
+```
+
